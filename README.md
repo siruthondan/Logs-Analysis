@@ -15,8 +15,12 @@ The tool reports the below considering the database is Dynamic,
 ### RUNNING THE PROGRAM:
 
 This project makes use of the same Linux-based virtual machine (VM) which comes preinstalled with Python and PostgreSQL Database.
-	1. Download [Vagrant](https://www.vagrantup.com/downloads.html) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads) to install and manage your virtual machine. Use `vagrant up` to bring the virtual machine online and `vagrant ssh` to login.
-	2. Download the data provided by Udacity [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). Unzip the file in order to extract newsdata.sql. This file should be inside the Vagrant folder.
-	3. Load the database using` psql -d news -f newsdata.sql`.
-	4. Connect to the database using `psql -d news` and verify the created tables and column types.
-	5. Now execute the Python file -`python ReportingTool_v1.py`.
+1. Download [Vagrant](https://www.vagrantup.com/downloads.html) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads) to install and manage your virtual machine. Use `vagrant up` to bring the virtual machine online and `vagrant ssh` to login.
+
+2. Download the data provided by Udacity [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). Unzip the file in order to extract newsdata.sql. This file should be inside the Vagrant folder.
+
+3. Load the database using` psql -d news -f newsdata.sql`.
+
+4. Connect to the database using `psql -d news` and verify the created tables and column types.
+
+5. Now execute the Python file -` python ReportingTool_v1.py`.
