@@ -1,7 +1,7 @@
 # Logs-Analysis
 Project as part of Full Stack Developer nano degree by Udacity
 
-###DESCRIPTION:
+### DESCRIPTION:
 
 The logs Analysis project is part of the Full Stack Developer nano degree course by Udacity. The project aims to showcase the DB-API, SQL and Python skills and the database used in PostgreSQL.
 
